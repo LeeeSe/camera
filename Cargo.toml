@@ -1,0 +1,16 @@
+[package]
+name = "镜子"
+version = "0.1.0"
+edition = "2021"
+description = "一面电子镜子"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+opencv = "0.74.0"
+
+[package.metadata.bundle]
+identifier = "com.doe.mirror"
+icon = ["logo/logo.jpg"]
+copyright = "Copyright (c) LeeeSe 2022. All rights reserved."
+short_description = "一面电子镜子"
